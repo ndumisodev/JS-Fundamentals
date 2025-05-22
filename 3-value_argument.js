@@ -1,6 +1,6 @@
 const { argv } = require('node:process');
 
-if ( argv[1] ==undefined ){
+if ( argv[2] ==undefined ){
     console.log("No argument")
 }
 else{

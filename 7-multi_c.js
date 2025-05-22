@@ -1,11 +1,11 @@
 const {argv} = require('node:process');
 
 
-if (argv[2] == undefined){
-    console.log("Missing number of occurrences")
-}
+// if (argv[2] == undefined){
+//     console.log("Missing number of occurrences")
+// }
 
-else if (isNaN(parseInt(argv[2]))){
+if (isNaN(parseInt(argv[2]))){
     console.log("Missing number of occurrences")
 }
 
